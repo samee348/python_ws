@@ -1,0 +1,23 @@
+'''program to generate a fancy number for a new vehicle considering the following constraints'''
+
+def sum_digits(num):
+     if num<10:
+         return num
+     s=0
+     while num!=0:
+         s+= num%10
+         num = num//10
+     return s
+
+for i in range(1000,10000):
+    if sum_digits(i)==12:
+        print(i)
+
+
+def get_digits(num):
+    temp=num
+    a,temp=temp//1000,temp%1000
+    b,temp=temp//100,temp%100
+    c,temp=temp//10,temp%10
+    d,temp=temp//1,temp%1
+    return a,b,c,d
