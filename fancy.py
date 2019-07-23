@@ -9,10 +9,6 @@ def sum_digits(num):
          num = num//10
      return s
 
-for i in range(1000,10000):
-    if sum_digits(i)==12:
-        print(i)
-
 
 def get_digits(num):
     temp=num
@@ -21,3 +17,9 @@ def get_digits(num):
     c,temp=temp//10,temp%10
     d,temp=temp//1,temp%1
     return a,b,c,d
+
+for i in range(1000,10000):
+    if sum_digits(i)==12:
+        a,b,c,d=get_digits(i)
+        if a-b == c and a+c == d:
+            print(i)
