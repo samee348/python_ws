@@ -1,0 +1,10 @@
+1,Lakshman,M.Tech,80000,CSE
+2,Niranjan,B.Tech,40000,ISE
+3,Joy,B.Tech,45000,ECE
+4,Rashmi,M.Tech,70000,AE
+5,Rakshitha,B.Tech.38000,ECE
+6,Sneha,B.Tech,35000,Mech
+7,Praneeth,B.Tech,42000,ISE
+8,Prashil,M.Tech,37000,CSE
+9,Vikhyath,PhD,100000,ISE
+10,Rajani,B.Tech,32000,CSE
